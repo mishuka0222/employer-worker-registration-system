@@ -35,7 +35,7 @@ public class Login extends JFrame{
 	String errorText = "ErrorText";
 	
 	
-	// public Login() {
+	public Login() {
 		
 		super("Login");
 		setIconImage(Toolkit.getDefaultToolkit().getImage("src\\icon\\Login_user_24.png"));
