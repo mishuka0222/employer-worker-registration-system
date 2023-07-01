@@ -23,7 +23,6 @@ public class Login extends JFrame{
 
 	private static final long serialVersionUID = 1L;
 	
-	
 	public static final int H_FRAME = 360;
 	public static final int W_FRAME = 540;
 	private JPanel contentPane;
