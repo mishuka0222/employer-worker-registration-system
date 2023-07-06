@@ -138,8 +138,5 @@ public class Login extends JFrame{
 		
 		label_errorText = new JLabel();
 		label_errorText.setForeground(Color.RED);
-		label_errorText.setBounds(button_login.getX() - 45, button_login.getY() + 30, 
-				170, 30);
-		
 	}
 }
