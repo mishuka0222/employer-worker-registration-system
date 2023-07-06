@@ -141,7 +141,6 @@ public class Login extends JFrame{
 		label_errorText.setBounds(button_login.getX() - 45, button_login.getY() + 30, 
 				170, 30);
 		label_errorText.setFont(new Font("Tahoma", Font.PLAIN + Font.BOLD, 11));
-		contentPane.add(label_errorText);
 		
 		setContentPane(contentPane);
 		
