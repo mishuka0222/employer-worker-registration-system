@@ -141,6 +141,5 @@ public class Login extends JFrame{
 		label_errorText.setBounds(button_login.getX() - 45, button_login.getY() + 30, 
 				170, 30);
 		
-		setContentPane(contentPane);
 	}
 }
