@@ -144,6 +144,4 @@ public class Login extends JFrame{
 		setContentPane(contentPane);
 		
 	}
-	
-	
 }
