@@ -130,6 +130,5 @@ public class Login extends JFrame{
 				
 			}
 		});
-		contentPane.add(button_login);		
 	}
 }
