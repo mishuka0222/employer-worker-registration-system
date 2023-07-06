@@ -33,7 +33,6 @@ public class Login extends JFrame{
 	private Insets insets;
 	String errorText = "ErrorText";
 	
-	
 	public Login() {
 		
 		super("Login");
