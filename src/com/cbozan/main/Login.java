@@ -136,6 +136,5 @@ public class Login extends JFrame{
 		label_icon.setBounds(textField_username.getX() + 20, textField_username.getY() - 100, 72, 72);
 		contentPane.add(label_icon);
 		
-		label_errorText = new JLabel();
 	}
 }
