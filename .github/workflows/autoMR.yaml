@@ -1,0 +1,28 @@
+name: Auto Create Merge Request
+
+on:
+  push:
+    branches:
+      - feature/login
+
+jobs:
+  create_merge_request:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Create Merge Request
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.TOKEN }}
+          script: |
+            const { data: pullRequest } = await github.pulls.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: 'Auto-generated Merge Request',
+              head: 'feature/login', // Replace with your branch name
+              base: 'main',
+            });
+            console.log(`Merge request created: ${pullRequest.html_url}`);
