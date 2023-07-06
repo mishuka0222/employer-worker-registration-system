@@ -133,6 +133,5 @@ public class Login extends JFrame{
 		contentPane.add(button_login);
 		
 		label_icon = new JLabel(new ImageIcon("src\\icon\\Login_user_72.png"));
-		label_icon.setBounds(textField_username.getX() + 20, textField_username.getY() - 100, 72, 72);
 	}
 }
