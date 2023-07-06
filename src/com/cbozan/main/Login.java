@@ -137,6 +137,5 @@ public class Login extends JFrame{
 		contentPane.add(label_icon);
 		
 		label_errorText = new JLabel();
-		label_errorText.setForeground(Color.RED);
 	}
 }
