@@ -130,8 +130,6 @@ public class Login extends JFrame{
 				
 			}
 		});
-		contentPane.add(button_login);
-		
-		label_icon = new JLabel(new ImageIcon("src\\icon\\Login_user_72.png"));
+		contentPane.add(button_login);		
 	}
 }
