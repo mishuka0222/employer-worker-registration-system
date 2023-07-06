@@ -125,9 +125,7 @@ public class Login extends JFrame{
 					} else {
 						label_errorText.setText(errorText);
 					}
-					
 				}
-				
 			}
 		});
 	}
